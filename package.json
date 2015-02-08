@@ -1,0 +1,45 @@
+{
+  "name": "codebadge",
+  "version": "0.0.1",
+  "description": "Tool to generate status badges for your projects.",
+  "author": "Carlos André <carlos.ulrich@gmail.com>",
+  "contributors": [{
+      "name": "Carlos André (aka w1zard)",
+      "email": "carlos.ulrich@gmail.com"
+    }],
+  "bin" : {
+      "grunt" : "node_modules/.bin/grunt"
+    },
+  "scripts": {
+      "clean": "grunt clean"
+    },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/carlos4ndre/codebadge.git"
+    },
+  "bugs": {
+        "url": "https://github.com/carlos4ndre/codebadge/issues"
+    },
+  "keywords": [
+      "tool",
+      "code",
+      "build",
+      "phantom"
+    ],
+  "engines": {
+      "npm": "1.1.x"
+    },
+  "dependencies": {
+      "grunt": "~0.4.5",
+      "grunt-cli": "~0.1.11",
+      "grunt-contrib-clean": "~0.6.0",
+      "handlebars": "~2.0.0",
+      "optparse": "~1.0.5",
+      "config": "~1.2.4"
+    },
+  "preferGlobal": true,
+  "private": true,
+  "publishConfig": {},
+  "analyze": true,
+  "license": "MIT"
+}
