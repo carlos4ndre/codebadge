@@ -37,33 +37,16 @@ var options = {
 };
 var parser = new optparse.OptionParser(SWITCHES)
 parser.banner = 'Usage: codebadgejs [badge name] [badge status] [description]'
-parser.on(1, function(value) {
-  options.badge_name = value;
-});
-parser.on(2, function(value) {
-  options.badge_status = value;
-});
-parser.on(3, function(value) {
-  options.badge_description = value;
-});
-parser.on('format', function(name, value) {
-  options.image_format = value;
-});
-parser.on('quality', function(name, value) {
-  options.image_quality = value;
-});
-parser.on('theme', function(name, value) {
-  options.badge_theme = value;
-});
-parser.on('filename', function(name, value) {
-  options.filename = value;
-});
-parser.on('directory', function(name, value) {
-  options.directory = value;
-});
-parser.on('help', function() {
-    console.log(parser.toString());
-});
+parser.on(1, function(value) { options.badge_name = value; });
+parser.on(2, function(value) { options.badge_status = value });
+parser.on(3, function(value) { options.badge_description = value; });
+parser.on('format', function(name, value) { options.image_format = value; });
+parser.on('quality', function(name, value) { options.image_quality = value; });
+parser.on('theme', function(name, value) { options.badge_theme = value; });
+parser.on('filename', function(name, value) { options.filename = value; });
+parser.on('directory', function(name, value) { options.directory = value; });
+parser.on('help', function() { console.log(parser.toString()) });
+
 // Parse command line arguments
 parser.parse(system.args);
 
