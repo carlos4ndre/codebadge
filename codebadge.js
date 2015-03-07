@@ -4,7 +4,7 @@ var fs = require('fs');
 var handlebars = require('handlebars');
 var optparse = require('optparse');
 
-var DEFAULT_THEME = 'robot';
+var DEFAULT_THEME = 'tron';
 var DEFAULT_IMAGE_FORMAT = 'png';
 var DEFAULT_IMAGE_QUALITY = '100';
 var DEFAULT_FILENAME = 'codebadge';
@@ -14,7 +14,7 @@ var templatePath = 'web/templates/codebadge.html';
 var badgeHtmlPath = 'web/codebadge.html';
 
 
-// define options
+// Define shell options
 var SWITCHES = [
   ['-d', '--debug', 'Enables debug mode'],
   ['-h', '--help', 'Shows help sections'],
