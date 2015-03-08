@@ -40,11 +40,11 @@
 }
 
 .stable {
-  border: 1px solid rgba(36,198,24,1.0);
-  background-color: rgba(36,198,224,1.0);
-  -moz-box-shadow: 0 0 10px rgba(36,198,224,1.0);
-  -webkit-box-shadow: 0 0 10px rgba(36,198,224,1.0);
-  box-shadow: 0 0 10px rgba(36,198,224,1.0);
+  border: 1px solid rgba(68,171,27,1.0);
+  background-color: rgba(68,171,27,1.0);
+  -moz-box-shadow: 0 0 10px rgba(68,171,27,1.0);
+  -webkit-box-shadow: 0 0 10px rgba(68,171,27,1.0);
+  box-shadow: 0 0 10px rgba(68,171,27,1.0);
 }
 
 .warning {
