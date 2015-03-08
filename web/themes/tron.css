@@ -1,5 +1,9 @@
 /* CSS created by Chriseisenbraun @http://codepen.io/chriseisenbraun/pen/riawD */
 
+#codebadge {
+  padding: 10px 5px;
+}
+
 #codebadge-name {
   margin: .8em 0 0 0;
   font-size: 1em;
