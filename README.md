@@ -1,6 +1,6 @@
 # codebadge
 
-Tool to generate codebadges to report the status of your projects.
+Tool to generate codebadges reporting the status of your projects.
 
 ## Installation
 
