@@ -63,6 +63,9 @@ var template = handlebars.compile(fs.read(templatePath));
 fs.write(badgeHtmlPath, template(data), 'w');
 page.open(badgeHtmlPath, function start(status) {
   var filepath = options.directory + '/' + options.filename + '.' + options.image_format;
+  page.clipRect = page.evaluate(function() {
+    return document.getElementById('codebadge').getBoundingClientRect();
+  });
   page.render(filepath, {format: options.image_format, quality: options.image_quality});
   phantom.exit();
 });
