@@ -4,7 +4,7 @@ var fs = require('fs');
 var handlebars = require('handlebars');
 var optparse = require('optparse');
 
-var DEFAULT_THEME = 'tron';
+var DEFAULT_THEME = 'github';
 var DEFAULT_IMAGE_FORMAT = 'png';
 var DEFAULT_IMAGE_QUALITY = '100';
 var DEFAULT_FILENAME = 'codebadge';
