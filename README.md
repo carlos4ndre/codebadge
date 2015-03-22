@@ -48,7 +48,7 @@ Available options:
 
 ### Unknown Codebadge
 
-```$ phantomjs codebadge.js build unknown  " Nothing happened "```
+```$ phantomjs codebadge.js build unknown  " no build information was provided "```
 
 ![Critical Badge](https://raw.githubusercontent.com/carlos4ndre/codebadge/master/demo/unknown-badge.png)
 
