@@ -27,25 +27,25 @@ Available options:
 
 ```$ phantomjs codebadge.js build stable  " All Good! "```
 
-![Critical Badge](https://raw.githubusercontent.com/carlos4ndre/codebadge/master/demo/my-stable-badge.png)
+![Critical Badge](https://raw.githubusercontent.com/carlos4ndre/codebadge/master/demo/stable-badge.png)
 
 ### Warning CodeBadge
 
 ```$ phantomjs codebadge.js build warning  " 23 tests failing "```
 
-![Critical Badge](https://raw.githubusercontent.com/carlos4ndre/codebadge/master/demo/my-warning-badge.png)
+![Critical Badge](https://raw.githubusercontent.com/carlos4ndre/codebadge/master/demo/warning-badge.png)
 
 ### Critical CodeBadge
 
 ```$ phantomjs codebadge.js build critical  " codemageddon has arrived! :( "```
 
-![Critical Badge](https://raw.githubusercontent.com/carlos4ndre/codebadge/master/demo/my-crtical-badge.png)
+![Critical Badge](https://raw.githubusercontent.com/carlos4ndre/codebadge/master/demo/critical-badge.png)
 
 ### Unknown Codebadge
 
 ```$ phantomjs codebadge.js build unknown  " Nothing happened "```
 
-![Critical Badge](https://raw.githubusercontent.com/carlos4ndre/codebadge/master/demo/my-unknown-badge.png)
+![Critical Badge](https://raw.githubusercontent.com/carlos4ndre/codebadge/master/demo/unknown-badge.png)
 
 ## Contributing
 
