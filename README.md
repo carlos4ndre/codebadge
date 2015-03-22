@@ -20,6 +20,11 @@ Available options:
       --filename NAME               Sets a name for the output file
       --directory DIR               Write image to target directory
 ```
+## Themes
+
+* Github (default)
+* Tron
+* Robot
 
 ## Examples
 
