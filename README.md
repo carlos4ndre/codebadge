@@ -1,3 +1,8 @@
+[![Travis build](https://secure.travis-ci.org/carlos4ndre/codebadge.svg?branch=master
+"Build Status")](https://travis-ci.org/carlos4ndre/codebadge)
+<a href="https://codeclimate.com/github/carlos4ndre/codebadge"><img src="https://codeclimate.com/github/carlos4ndre/codebadge/badges/gpa.svg" /></a>
+<a href="https://codeclimate.com/github/carlos4ndre/codebadge"><img src="https://codeclimate.com/github/carlos4ndre/codebadge/badges/issue_count.svg" /></a>
+
 # codebadge
 
 Tool to generate codebadges reporting the status of your projects.
