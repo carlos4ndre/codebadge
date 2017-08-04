@@ -9,9 +9,9 @@ Tool to generate codebadges reporting the status of your projects.
 
 ## Installation
 
-Install phantomjs in your system and then run:
-
+```
 $ npm install
+```
 
 ## Usage
 
@@ -37,25 +37,25 @@ Available options:
 
 ### Stable CodeBadge
 
-```$ phantomjs codebadge.js build stable  " All Good! "```
+```$ npm run codebadge -- build stable " All Good! "```
 
 ![Critical Badge](https://raw.githubusercontent.com/carlos4ndre/codebadge/master/demo/stable-badge.png)
 
 ### Warning CodeBadge
 
-```$ phantomjs codebadge.js build warning  " 23 tests failing "```
+```$ npm run codebadge -- build warning " 23 tests failing "```
 
 ![Critical Badge](https://raw.githubusercontent.com/carlos4ndre/codebadge/master/demo/warning-badge.png)
 
 ### Critical CodeBadge
 
-```$ phantomjs codebadge.js build critical  " codemageddon has arrived! :( "```
+```$ npm run codebadge -- build critical " codemageddon has arrived! :( "```
 
 ![Critical Badge](https://raw.githubusercontent.com/carlos4ndre/codebadge/master/demo/critical-badge.png)
 
 ### Unknown Codebadge
 
-```$ phantomjs codebadge.js build unknown  " no build information was provided "```
+```$ npm run codebadge -- build unknown " no build information was provided "```
 
 ![Critical Badge](https://raw.githubusercontent.com/carlos4ndre/codebadge/master/demo/unknown-badge.png)
 
