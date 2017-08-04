@@ -4,12 +4,14 @@ Tool to generate codebadges reporting the status of your projects.
 
 ## Installation
 
-    $ npm install
+Install phantomjs in your system and then run:
+
+$ npm install
 
 ## Usage
 
 ```
-codebadgejs [badge name] [badge status] [description]
+npm run codebadge -- [badge name] [badge status] [description]
 
 Available options:
   -d, --debug                       Enables debug mode

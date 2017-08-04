@@ -3,41 +3,48 @@
   "version": "0.0.1",
   "description": "Tool to generate status badges for your projects.",
   "author": "Carlos André <carlos.ulrich@gmail.com>",
-  "contributors": [{
+  "contributors": [
+    {
       "name": "Carlos André (aka w1zard)",
       "email": "carlos.ulrich@gmail.com"
-    }],
-  "bin" : {
-      "grunt" : "node_modules/.bin/grunt"
-    },
+    }
+  ],
+  "bin": {
+    "grunt": "node_modules/.bin/grunt",
+    "phantomjs": "node_modules/.bin/phantomjs"
+  },
   "scripts": {
-      "clean": "grunt clean",
-      "test": "grunt mochaTest"
-    },
+    "clean": "grunt clean",
+    "test": "grunt mochaTest",
+    "codebadge": "phantomjs codebadge.js"
+  },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/carlos4ndre/codebadge.git"
-    },
+    "type": "git",
+    "url": "https://github.com/carlos4ndre/codebadge.git"
+  },
   "bugs": {
-        "url": "https://github.com/carlos4ndre/codebadge/issues"
-    },
+    "url": "https://github.com/carlos4ndre/codebadge/issues"
+  },
   "keywords": [
-      "tool",
-      "code",
-      "phantomjs"
-    ],
+    "tool",
+    "code",
+    "phantomjs"
+  ],
   "engines": {
-      "npm": "1.1.x"
-    },
+    "npm": "1.1.x"
+  },
   "dependencies": {
-      "grunt-contrib-clean": "~0.6.0",
-      "grunt-mocha-test": "~0.12.7",
-      "handlebars": "~2.0.0",
-      "optparse": "~1.0.5",
-      "shelljs": "~0.3.0",
-      "phantomcss": "~0.9.2",
-      "config": "~1.2.4"
-    },
+    "mocha": "3.5.0",
+    "grunt": "1.0.1",
+    "grunt-contrib-clean": "1.1.0",
+    "grunt-mocha-test": "0.13.2",
+    "handlebars": "4.0.10",
+    "optparse": "1.0.5",
+    "shelljs": "0.7.8",
+    "phantomcss": "1.1.5",
+    "phantomjs-prebuilt": "2.1.14",
+    "config": "1.26.1"
+  },
   "preferGlobal": true,
   "private": true,
   "publishConfig": {},
