@@ -40,7 +40,7 @@
     "grunt-mocha-test": "0.13.2",
     "handlebars": "4.0.10",
     "optparse": "1.0.5",
-    "shelljs": "0.7.8",
+    "shelljs": "0.8.5",
     "phantomcss": "1.1.5",
     "phantomjs-prebuilt": "2.1.14",
     "config": "1.26.1"
